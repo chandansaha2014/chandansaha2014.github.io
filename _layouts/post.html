@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="container">
+    <div id="header">
+        <h1><a href="/">{{site.title}}</a></h1>
+    </div>
+    
+    <div id="post">
+        <h2>{{page.title}}</h2>
+        <div class="meta">
+            <span class="date">{{page.date | date: '%B %e, %Y'}}</span>
+             - 
+            <span class="tags">
+                {% for category in page.categories %}
+                    {{category}}{% unless forloop.last %}, {% endunless %}
+                        {% endfor %}
+            </span>
+        </div>
+        {{content}}
+    </div>
+
+    <div id="comments">
+        {% include disqus.html %}
+    </div>
+
+    <div id="footer">
+        <div id="contact">
+            <p>
+                Benjamin Fradet<br/>
+                Data engineer<br/>
+                &#98;&#101;&#110;&#106;&#97;&#109;&#105;&#110;&#46;&#102;&#114;&#97;&#100;&#101;&#116;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
+            </p>
+        </div>
+        <div id="icon-v">
+            <p>
+                <a href="https://github.com/BenFradet" class="fa fa-github-alt"></a><br/>
+                <a href="https://twitter.com/fradetben" class="fa fa-twitter"></a><br/>
+                <a href="https://www.linkedin.com/in/benfradet" class="fa fa-linkedin"></a>
+            </p>
+        </div>
+    </div>
+</div>
