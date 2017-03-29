@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "DejaVu Sans", helvetica, arial, clean, sans-serif;
+    background-color: white;
+}
+
+h2 {
+    margin-bottom: 0em;
+}
+
+#header {
+    margin-bottom: 2em;
+}
+
+#footer {
+    font-size: 80%;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    margin-right: 0em;
+}
+
+#footer div {
+    width: 20%;
+    float: left;
+}
+
+#about {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+#excerpts {
+    float: right;
+    width: 70%;
+    height: 100%;
+    max-width: 700px;
+}
+
+#icon-h div {
+    width: 33%;
+    float: left;
+}
+
+#post, #comments {
+    max-width: 700px;
+    margin-left: calc((100% - 700px)/2);
+}
+
+.meta {
+    color: #888;
+    margin-bottom: 1em;
+    font-size: 90%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a: visited {
+    text-decoration: none;
+}
+
+a: hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+table {
+    padding: 0;
+}
+table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th :first-child, table tr td :first-child {
+    margin-top: 0;
+}
+table tr th :last-child, table tr td :last-child {
+    margin-bottom: 0;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
