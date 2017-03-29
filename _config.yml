@@ -1,0 +1,15 @@
+domain: chandansaha2014.github.io
+author: Chandan Saha
+email: chandansaha21@gmail.com
+title: Chandan Saha's blog
+
+permalink: /blog/:year/:month/:day/:title
+highlighter: rouge
+timezone: FR
+encoding: utf-8
+markdown: kramdown
+redcarpet:
+    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
+exclude:
+    - README.md
+    - scripts
