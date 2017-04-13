@@ -388,9 +388,9 @@ img.unstyled {
 /* line 1, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/header/_header_landing-page.scss */
 .header.header_landing-page {
   padding: 160px 0 60px;
-  background: url("../img/hero_image_01.jpg") top right no-repeat, -moz-linear-gradient(left, #2d599e 0%, #3d93e2 100%);
-  background: url("../img/hero_image_01.jpg") top right no-repeat, -webkit-linear-gradient(left, #2d599e 0%, #3d93e2 100%);
-  background: url("../img/hero_image_01.jpg") top right no-repeat, linear-gradient(to right, #2d599e 0%, #3d93e2 100%);
+  background: url("./image/cover.jpg") top right no-repeat, -moz-linear-gradient(left, #2d599e 0%, #3d93e2 100%);
+  background: url("./image/cover.jpg") top right no-repeat, -webkit-linear-gradient(left, #2d599e 0%, #3d93e2 100%);
+  background: url("./image/cover.jpg") top right no-repeat, linear-gradient(to right, #2d599e 0%, #3d93e2 100%);
   background-size: cover; }
   /* line 8, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/header/_header_landing-page.scss */
   .header.header_landing-page h1 {
