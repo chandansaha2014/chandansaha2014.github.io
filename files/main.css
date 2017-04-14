@@ -2081,7 +2081,7 @@ a:hover .card {
 
 /* line 2, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/_footer.scss */
 footer .section-1 {
-  background-color: #fff;
+  background-color: #161616;
   padding: 20px 0; }
   /* line 6, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/_footer.scss */
   footer .section-1 .flex-box {
@@ -2099,7 +2099,7 @@ footer .section-1 {
         padding-bottom: 0; }
   /* line 25, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/_footer.scss */
   footer .section-1 .social a i {
-    color: #fff;
+    color: #161616;
     font-size: 32px;
     margin-right: 40px;
     transition: all .3s ease; }
@@ -2149,7 +2149,7 @@ footer .section-1 {
             color: #fff; }
 /* line 86, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/_footer.scss */
 footer .section-2 {
-  background-color: #242426;
+  background-color: #161616;
   padding: 20px 0; }
   /* line 91, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/_footer.scss */
   footer .section-2 .footer__languages p {
