@@ -2082,7 +2082,7 @@ a:hover .card {
 /* line 2, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/_footer.scss */
 footer .section-1 {
   background-color: #161616;
-  padding: 0px 0; }
+  padding: 10px 0; }
   /* line 6, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/_footer.scss */
   footer .section-1 .flex-box {
     display: flex;
@@ -2093,7 +2093,7 @@ footer .section-1 {
     margin: 0; }
     /* line 14, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/_footer.scss */
     footer .section-1 .flex-box .flex-item {
-      padding: 0px 0 10px; }
+      padding: 10px 0 10px; }
       /* line 17, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/_footer.scss */
       footer .section-1 .flex-box .flex-item:last-child {
         padding-bottom: 0; }
