@@ -2099,7 +2099,7 @@ footer .section-1 {
         padding-bottom: 0; }
   /* line 25, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/_footer.scss */
   footer .section-1 .social a i {
-    color: #161616;
+    color: #fff;
     font-size: 32px;
     margin-right: 40px;
     transition: all .3s ease; }
