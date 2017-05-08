@@ -11,9 +11,10 @@ categories:
 In this post , I will go over some details about my final project on image classification and deep learning. 
 
 
+<!---
+Real-Time Traffic Sign Recognition
+-->
 
-
-# Real-Time Traffic Sign Recognition
 Traffic Sign classification requires a high degree of accuracy such that it is viable to use in autonomous vehicles.
 
 ![intro](/images/traffic_sign.png)
@@ -23,8 +24,7 @@ algorithms to classify traffic signs for autonomous cars. Our model is a variati
   
  *[Final Report](https://github.com/chandansaha2014/Real-time-Traffic-Sign-Recognition/blob/master/ML_Report_Traffic_sign_classification.pdf) can be found here.* 
 ## Dataset 
-[Lisa dataset](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html) is a collection of annotated im-
-ages and videos containing traffic signs and videos containing traffic signs. It is comprised of over 6,000 frames that con-
+[Lisa dataset](http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html) is a collection of annotated images and videos containing traffic signs and videos containing traffic signs. It is comprised of over 6,000 frames that con-
 tain over 7,000 signs of 47 different types.
 
 ## Architecture 
