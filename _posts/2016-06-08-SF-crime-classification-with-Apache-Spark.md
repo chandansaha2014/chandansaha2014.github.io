@@ -16,8 +16,7 @@ We'll be exploring the San Francisco crime dataset which contains crimes which
 took place between 2003 and 2015 as detailed on [the
 Kaggle competition page](https://www.kaggle.com/c/sf-crime).
 
-You can find the code for this post on [Github](https://github.com/BenFradet/
-spark-kaggle/tree/master/sfCrime).
+You can find the code for this post on [Github](https://github.com/chandansaha2014).
 <br><br>
 
 ### The dataset
@@ -270,9 +269,7 @@ Along the same lines of the `HourOfDay` feature, I reasoned that it would be
 interesting to see if an incident occurred during the day or the night.
 
 To solve this issue, I used [the sunrise-sunset.org API](http://
-sunrise-sunset.org/api) with [this script](https://github.com/BenFradet/
-spark-kaggle/blob/master/sfCrime/src/main/scala/io/github/benfradet/
-BuildSetRiseDataset.scala).
+sunrise-sunset.org/api) with [this script]https://github.com/chandansaha2014).
 It basically makes a request to the API for each day present in the dataset to
 retrieve the time of sunrise and sunset, parses the json-formatted result thanks
 to [circe](https://github.com/travisbrown/circe) (which is a great json library
@@ -280,8 +277,7 @@ for Scala by the way) and writes it to a file.
 There is an important thing to note about this script: a request is made every
 five seconds in order not to overload the API.
 
-The resulting dataset can be found [in the repo](https://github.com/BenFradet/
-spark-kaggle/blob/master/sfCrime/src/main/resources/sunsetrise.json).
+The resulting dataset can be found [in the repo](https://github.com/chandansaha2014).
 
 Once we have all our sunset and sunrise times, we can load them into a
 dataframe:
@@ -344,13 +340,11 @@ wouldn't have any impact.
 To check this assumption, I assembled a dataset containing the most occurring
 weather condition and average temperature of every day in the dataset using
 [wunderground.com](https://www.wunderground.com/). The script can be found [here
-](https://github.com/BenFradet/spark-kaggle/blob/master/sfCrime/src/main/scala/
-io/github/benfradet/BuildWeatherDataset.scala). It works similarly to the
+](https://github.com/chandansaha2014). It works similarly to the
 sunrise/sunset scraping we just saw except that wunderground gives us csv
 instead of json.
 
-The resulting dataset can be found [here](https://github.com/BenFradet/
-spark-kaggle/blob/master/sfCrime/src/main/resources/weather.json).
+The resulting dataset can be found [here](https://github.com/chandansaha2014).
 
 As we've done before, we need to turn this dataset into a dataframe:
 
@@ -383,8 +377,7 @@ To find San Francisco neighborhoods as latitude/longitude polygons I used
 which fitted the bill perfectly providing neighborhoods for California as a
 [shapefile](https://en.wikipedia.org/wiki/Shapefile). I used a bit of R to turn
 the shapefile into a json containing my polygons as [WKT](https://en.wikipedia.
-org/wiki/Well-known_text) which can be found [here](https://github.com/BenFradet
-/spark-kaggle/blob/master/sfCrime/src/main/resources/neighborhoods.json).
+org/wiki/Well-known_text) which can be found [here](https://github.com/chandansaha2014).
 
 Now that we have our SF neighborhoods as polygons we still have to determine
 in which one of these neighborhoods every incident occurred. For this task, I
@@ -669,8 +662,7 @@ resultDF
 ### spark-submit script
 
 I wrote a little script which takes care of the file handling and submission to
-Spark which you can find [here](https://github.com/BenFradet/spark-kaggle/blob/
-master/sfCrime/bin/submit.sh). It just needs `spark-submit` to be on your path.
+Spark which you can find [here](https://github.com/chandansaha2014). It just needs `spark-submit` to be on your path.
 <br><br>
 
 ### Conclusion

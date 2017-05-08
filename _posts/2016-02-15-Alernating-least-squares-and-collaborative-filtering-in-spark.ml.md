@@ -304,6 +304,6 @@ als = ALS(maxIter=5, regParam=0.01, implicitPrefs=True,
 ### Conclusion
 
 You can find the full examples and the scripts to run them on my repo
-[sparkml-als](https://github.com/BenFradet/sparkml-als).
+[sparkml-als](https://github.com/chandansaha2014).
 
 Hoping this was informative and made you want to try out ALS in spark.ml.

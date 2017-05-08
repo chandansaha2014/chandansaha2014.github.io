@@ -49,7 +49,7 @@ We'll be using the Titanic dataset taken from a
 if a passenger survived from a set of features such as the class the passenger
 was in, hers/his age or the fare the passenger paid to get on board.
 
-You can find the code for this post on [Github](https://github.com/BenFradet/spark-kaggle/tree/master/titanic).
+You can find the code for this post on [Github](https://github.com/chandansaha2014).
 <br><br>
 
 ### Data exploration and data transformation
@@ -555,7 +555,7 @@ rm -rf ${TMP_FILE}
 cd ${DIR}
 mvn clean package
 spark-submit \
-  --class com.github.benfradet.Titanic \
+  --class com.github.Chandan.Titanic \
   --master local[2] \
   target/titanic-1.0-SNAPSHOT.jar \
   src/main/resources/train.csv src/main/resources/test.csv ${OUTPUT}
