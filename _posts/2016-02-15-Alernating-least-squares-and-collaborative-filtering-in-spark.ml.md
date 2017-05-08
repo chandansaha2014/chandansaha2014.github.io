@@ -2,8 +2,8 @@
 layout: post
 title: Alternating least squares and collaborative filtering in spark.ml
 categories:
-  - machine learning
-  - tutorial
+  - Machine Learning
+  - Tutorial
   - Spark
 ---
 

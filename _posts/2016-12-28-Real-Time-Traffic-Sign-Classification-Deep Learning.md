@@ -2,7 +2,7 @@
 layout: post
 title: Real-time traffic sign classification Project
 categories:
-  - machine learning
+  - Machine Learning
   - Project
   - Deep Learning
   - Image Classification

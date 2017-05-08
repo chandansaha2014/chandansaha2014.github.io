@@ -2,7 +2,7 @@
 layout: post
 title: Exploring spark.ml with the Titanic Kaggle competition
 categories:
-    - machine learning
+    - Machine Learning
     - tutorial
     - Spark
     - Kaggle
