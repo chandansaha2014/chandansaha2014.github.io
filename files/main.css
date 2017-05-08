@@ -77,6 +77,17 @@ a {
   a:hover {
     color: #2c559a; }
 
+#post, #comments {
+    max-width: 700px;
+    margin-left: calc((100% - 700px)/2);
+}
+
+.meta {
+    color: #888;
+    margin-bottom: 1em;
+    font-size: 90%;
+}
+
 /* line 56, /home/ubuntu/visualcv_marketing/source/site-assets/css/partials/_main-styles.scss */
 strong {
   font-family: "Avenir-Medium", "Noto Sans", sans-serif; }
