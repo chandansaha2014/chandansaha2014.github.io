@@ -32,7 +32,7 @@ exclusively about spark.ml which aims to ease the process of creating machine
 learning pipelines.
 
 If you want to follow this tutorial you will have to download spark which can
-be done [here](http://spark.apache.org/downloads.html). Additionnally, you will
+be done [here](http://spark.apache.org/downloads.html). Additionally, you will
 need a few dependencies in order to build your project:
 
 | groupId | artifactId | version | scope |

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Realtime traffic sign classification Project
-caegories:
+title: Real-time traffic sign classification Project
+categories:
   - machine learning
   - Project
   - Deep Learning
@@ -34,9 +34,11 @@ The model is based on VGGNet. Overall High level architecture of our model is gi
 ![Architecture](/images/architecture.png)
 
 We have used [VGGNet pre- trained model](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3) to speed up training process
+
 ## Results
+
 Data Set | Number of Classes | Accuracy | Testing time | Train Time(per epoch)
------------- | ------------- | ------------- | ------------- | -------------
+|----+----|
 GTSRB  | 43 | 99.3% | 15.3 ms | 210 sec
 GTSRB(GPU)  | 43 | 99.31% | 3.5 ms | 45 sec
 LISA  | 16 | 98.7% | 14.6 ms | 33 sec

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: My entry to the Kaggle SF crime classification competition using Apache Spark
-caegories:
-  - machine learning
-  - tutorial
+categories:
+  - Machine Learning
+  - Tutorial
   - Spark
   - Kaggle
 ---
